@@ -192,6 +192,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 0.3cm;
 }
 
 /* navbar ends  */
@@ -1420,7 +1421,13 @@ textarea.input{
     .btn{
         padding: 0.45rem 1.2rem;
     }
+    
+    .img-gallery img:hover{
+        transform: none;
+        box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+    }
 
+    
 }
 
 /* responsive ends */
