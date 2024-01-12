@@ -50,7 +50,7 @@ close.addEventListener('click',() =>{
 
 ScrollReveal({
     reset: true,
-    distance:'80px',
+    distance:'150px',
     duration:1500,
     delay:150, 
 });
@@ -69,7 +69,6 @@ ScrollReveal().reveal(".blog-container", {delay:200, easing:"ease-out", interval
 // scroll reveal ends 
 
 // contact form js
-
 const inputs = document.querySelectorAll(".input");
              
 function focusFunc(){
@@ -91,3 +90,27 @@ inputs.forEach(input =>{
 })
 
 // contact form js ends
+
+// slider 
+var TrandingSlider = new Swiper('.tranding-slider', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    loop: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 2.5,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  });
+// slider ends
