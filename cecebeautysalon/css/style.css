@@ -916,11 +916,7 @@ h2{
 }
 /* end gallery */
 
-.img-gallery img:hover{
-    transform: scale(0.8) rotate(-15deg);
-    border-radius: 20px;
-    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
-}
+
 
 .gallerysign li a{
     font-size: 15px;
